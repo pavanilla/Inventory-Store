@@ -7,7 +7,7 @@
 # server side 
   1. Node.js
   2. MongoDB (persistent storage)
-  3. MongoDB (persistent storage)
+  3. Express.js (web application framework built on top of Connect for Node.js)
   4. Mongoose (schema based domain modeling)
   5. bcrypt(hashing)
 
