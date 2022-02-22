@@ -17,6 +17,7 @@
   2. Repaired, Damaged, Ready are intrinsically belong together. From the first point assumption we frequently need to query all the three of collections on their own,so we should normalize the data into three separate collections.
   3. In the case of stores and User relationship. there exist a pattern of one-to-many relationship.
   4. And between the bags and Inventory status. there exist a pattern of one-to-many relationship
+  5. I had used mongoose layer on the mongodb. to use mongo shell i had provided the steps in the Installing Instruction.
 
 
 # Installing Instructions 
