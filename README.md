@@ -4,8 +4,9 @@
 
  This is a prototype repository for the server component of the Inventory Store. The system allows the stocks across the Inventory store. Stock is shown for the User and the Inventory status of the stores and their store data. Data is stored in mongoDB database.
 
-# Key Technologies for the Inventory store
-key technologies include: Node.js and MongoDB, Javascript 
+# serve side technologies
+1.Node.js
+  
 
 # Assumptions 
   1. Data base schema is designed in the view of write operations rather than read operation . so prefered using Reference Data Models (Normalization).
@@ -27,8 +28,15 @@ key technologies include: Node.js and MongoDB, Javascript
   ## MongoDB
   To install MongoDB, follow the instructions in the [MongoDB Manual](https://docs.mongodb.com/manual/) You will also need to create a data/db directory within the project     directory. The MongoDB data directory COULD be located anywhere, however the startup script start_mongodb.sh assumes there is a ./data/db directory within the current project directory. After installing MongoDB, execute the startup script.
   
-         $ ./start_mongodb.sh
+      $ ./start_mongodb.sh
       
+ # starting the project
+   
+   ## To start node,run the following command:
+       $ npm start
+   ## you should see:
+       Server listening on port 5000
+   ## naviagate to http://localhost:5000
   
   
   
