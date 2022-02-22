@@ -1,16 +1,20 @@
-# Inventory Store - Server Code
+# Inventory Store 
 
 # About
 
- This is a prototype repository for the server component of the Inventory Store. The system allows the stocks across the Inventory store. Stock is shown for the User and the Inventory status of the stores and their store data. Data is stored in mongoDB database.
+ This is a prototype repository for the server component of the Inventory Store. the bags can be stored into the three different categories in the inventory based on their type.  and can be moved across the inventory store categories. Data is stored in mongoDB database.
 
 # serve side technologies
 1.Node.js
-  
+2.MongoDB (persistent storage)
+3.Express.js (web application framework built on top of Connect for Node.js)
+4.Mongoose (schema based domain modeling)
+5. bcrypt (hasing)
+
 
 # Assumptions 
   1. Data base schema is designed in the view of write operations rather than read operation . so prefered using Reference Data Models (Normalization).
-  2. Repaired, Damaged, Ready are intrinsically belong together. from the first point assumption we frequently need to query all the three of collections on their own,so we should       normalize the data into three separate collections,
+  2. Repaired, Damaged, Ready are intrinsically belong together. From the first point assumption we frequently need to query all the three of collections on their own,so we should normalize the data into three separate collections.
   3. In the case of stores and User relationship. there exist a pattern of one-to-many relationship.
   4. And between the bags and Inventory status. there exist a pattern of one-to-many relationship
 
