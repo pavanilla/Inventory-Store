@@ -4,12 +4,12 @@
 
  This is a prototype repository for the server component of the Inventory Store. the bags can be stored into the three different categories in the inventory based on their type.  and can be moved across the inventory store categories. Data is stored in mongoDB database.
 
-# serve side technologies
-   1.Node.js
-   2.MongoDB (persistent storage)
-   3.Express.js (web application framework built on top of Connect for Node.js)
-   4.Mongoose (schema based domain modeling)
-   5. bcrypt (hasing)
+# server side 
+  1. Node.js
+  2. MongoDB (persistent storage)
+  3. MongoDB (persistent storage)
+  4. Mongoose (schema based domain modeling)
+  5. bcrypt(hashing)
 
 
 # Assumptions 
